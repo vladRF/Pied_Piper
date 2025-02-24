@@ -1,0 +1,56 @@
+/*Сброс стилей ссылок ... убрано подчеркивание цвет белый*/
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container {
+    width: 1220px;
+    margin: 0 auto;
+}
+
+nav {
+    outline: 1px solid black;
+    background-color: #007765;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 84px;
+}
+
+.header-logo {
+    margin-left: 55px;
+
+
+}
+
+.menu {
+    margin-right: 54px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+}
+
+.menu_items {
+    display: inline-block;
+
+
+}
+
+.menu li:not(:last-child) {
+    text-align: center;
+    color: #fff;
+    border-right: 2px solid white;
+    padding-right: 8px;
+    margin-right: 3px;
+}
+
+
+
+
+.header-img{
+    outline: 1px solid black;
+    height: 403px;
+    background-image: url("img/header.png");
+}
