@@ -20,8 +20,6 @@ nav {
 
 .header-logo {
     margin-left: 55px;
-
-
 }
 
 .menu {
@@ -34,8 +32,6 @@ nav {
 
 .menu_items {
     display: inline-block;
-
-
 }
 
 .menu li:not(:last-child) {
@@ -46,9 +42,6 @@ nav {
     margin-right: 3px;
 }
 
-
-
-
 .header-img {
     /* outline: 1px solid black; */
     height: 403px;
@@ -57,8 +50,6 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
 
 .header-img__heading {
@@ -74,8 +65,7 @@ nav {
     align-items: center;
     /* outline: 1px solid black; */
     padding-top: 48px;
-    background-color: #EEEEEE;
-
+    background-color: #eeeeee;
 }
 
 .problem__heading {
@@ -98,31 +88,68 @@ nav {
     font-size: 32px;
     color: #000;
     margin-bottom: 92px;
-
 }
 
 .problem__content__span {
     font-weight: 700;
 }
 
-.strongest_supercomputer{
+.strongest_supercomputer {
     /* outline: 1px solid black; */
     background-image: url("../img/image1.png");
-    
+
     height: 483px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.strongest_supercomputer__header{
-   /* outline: 1px solid white;*/
+.strongest_supercomputer__header {
+    /* outline: 1px solid white;*/
     width: 893px;
     font-family: Roboto;
-font-style: italic;
-font-weight: 500;
-font-size: 48px;
-text-align: center;
-color: #fff;
-box-sizing: border-box;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    text-align: center;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.advantages_PiedPiperCoin {
+    outline: 1px solid black;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 32px;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advantages_PiedPiperCoin__title {
+    outline: 1px solid red;
+    width: 1110px;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 64px;
+    color: #007765;
+}
+
+.advantages_PiedPiperCoin__pic-block{
+    outline: 1px solid black;
+    display: flex;
+    justify-content: center;
+    width: 1219px;
+    
+    
+    
+}
+
+
+.advantages_PiedPiperCoin__pic-text{
+    outline: 1px solid red;
+    width: 930px;
+        
 }
