@@ -4,6 +4,11 @@ a {
     color: #fff;
 }
 
+body{
+    background-color: #E5E5E5;
+}
+
+
 .container {
     width: 1220px;
     margin: 0 auto;
@@ -117,7 +122,7 @@ nav {
 }
 
 .advantages_PiedPiperCoin {
-    outline: 1px solid black;
+    /*outline: 1px solid black;*/
     font-family: Roboto;
     font-weight: 400;
     font-size: 32px;
@@ -125,31 +130,57 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 48px;
+    background-color: #FFFFFF;
+    
 }
 
 .advantages_PiedPiperCoin__title {
-    outline: 1px solid red;
+    /*outline: 1px solid red;*/
     width: 1110px;
     text-align: center;
     font-family: Roboto;
     font-weight: 500;
     font-size: 64px;
     color: #007765;
+    margin-bottom: 16px;
 }
 
 .advantages_PiedPiperCoin__pic-block{
-    outline: 1px solid black;
+    /*outline: 1px solid black;*/
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     width: 1219px;
+    margin-bottom: 41px;
     
     
     
 }
+
+.advantages_PiedPiperCoin__pic-block img{
+    margin-left: 55px;
+}
+
 
 
 .advantages_PiedPiperCoin__pic-text{
-    outline: 1px solid red;
+    /*outline: 1px solid red;*/
     width: 930px;
+    margin-right: 71px;
         
 }
+
+
+.advantages_PiedPiperCoin__text-block-two{
+width: 1110px;
+/*outline: 1px solid black;*/
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 35px;
+margin-bottom: 92px;
+
+
+
+}
+
