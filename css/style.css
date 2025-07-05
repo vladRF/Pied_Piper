@@ -186,9 +186,46 @@ margin-bottom: 92px;
 
 .team{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EEEEEE;
+    padding-top: 47px;
+
 }
 
 
 .team__list{
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 29px;
+    margin-bottom: 106px;
 }
+
+.title{
+    
+    outline: 1px solid black;
+    width: 1097px;
+    height: 75px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 64px;
+    color: #007765;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 31px;
+}
+
+.team__list__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* display: block;*/
+    outline: 1px solid black;
+    width: 346px;
+    height: 280px;
+    
+}
+
