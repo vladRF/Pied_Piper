@@ -184,3 +184,11 @@ margin-bottom: 92px;
 
 }
 
+.team{
+    display: flex;
+}
+
+
+.team__list{
+    display: flex;
+}
