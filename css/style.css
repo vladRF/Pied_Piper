@@ -204,7 +204,7 @@ margin-bottom: 92px;
 
 .title{
     
-    outline: 1px solid black;
+    /*outline: 1px solid black;*/
     width: 1097px;
     height: 75px;
     font-family: Roboto;
@@ -223,9 +223,34 @@ margin-bottom: 92px;
     align-items: center;
     justify-content: center;
     /* display: block;*/
-    outline: 1px solid black;
+    /*outline: 1px solid black;*/
     width: 346px;
     height: 280px;
     
 }
 
+.name__person{
+
+font-family: Roboto;
+font-weight: 700;
+font-size: 24px;
+color: #007765;
+margin-top: 11px;
+
+}
+
+
+
+.team__employe{
+font-family: Roboto;
+font-style: italic;
+font-weight: 400;
+font-size: 18px;
+color: #000;
+
+
+
+
+
+
+}
