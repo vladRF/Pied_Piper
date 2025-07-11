@@ -236,7 +236,6 @@ font-weight: 700;
 font-size: 24px;
 color: #007765;
 margin-top: 11px;
-
 }
 
 
@@ -247,10 +246,25 @@ font-style: italic;
 font-weight: 400;
 font-size: 18px;
 color: #000;
+}
 
 
 
 
+footer{
+    height: 176px;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-
+.footer__text{
+    width:540px ;
+    height: 64px;
+    font-family: Roboto;
+font-weight: 400;
+font-size: 18px;
+text-align: center;
+color: #fff;
 }
